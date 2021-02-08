@@ -1,0 +1,50 @@
+.title-container {
+  margin-top: 0.625rem;
+  margin-bottom: 1rem;
+}
+
+/* Empty card styles */
+.emptyCart-container:hover {
+  cursor: pointer;
+}
+.emptyCart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.emptyCart-container .text-title > h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.emptyCart-container .text-title > p {
+  color: #484848;
+  text-align: center;
+}
+
+/* Card Items Style  */
+.cart-item-container {
+  display: flex;
+  margin-bottom: 0.625rem;
+  justify-content: flex-start;
+}
+.rigth-side-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cart-item-name span {
+  color: #484848;
+}
+.cart-button {
+  color: #f90000;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  border-color: #f90000;
+  padding: 0.313rem 1rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif !important;
+}
+.cart-button:hover {
+  cursor: pointer;
+}

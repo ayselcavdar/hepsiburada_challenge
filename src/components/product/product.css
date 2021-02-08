@@ -1,0 +1,52 @@
+.product-card .card-footer {
+  margin-top: 0.563rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.card-footer-body {
+  margin-top: 0.625rem;
+}
+.cart-btn {
+  display: none;
+}
+.incart-text {
+  border-radius: 0.5rem;
+  width: 233px;
+  height: 2rem;
+  border-color: rgba(255, 96, 0, 0.11);
+  background-color: rgba(255, 96, 0, 0.11);
+  color: #ff6000;
+  outline: none;
+  cursor: pointer;
+}
+
+.already-incart {
+  border-radius: 0.5rem;
+  width: 233px;
+  height: 2rem;
+  border-color: rgba(126, 126, 126, 0.11);
+  background-color: rgba(126, 126, 126, 0.11);
+  color: #b0b0b0;
+  outline: none;
+  /* cursor: pointer; */
+}
+
+.card-footer-price-container {
+  margin-bottom: 1.063rem;
+}
+.card-footer-price {
+  font-weight: bold;
+  font-size: 0.875;
+  line-height: 1.125rem;
+  margin-top: 0.813rem;
+}
+.card-footer-discount {
+  font-weight: bold;
+  font-size: 0.875;
+  line-height: 1.125rem;
+  color: #9b9b9b;
+}
+.card-footer-discount > span {
+  color: #f90000;
+}

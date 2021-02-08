@@ -1,0 +1,84 @@
+.header{
+    height: 5.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid #b0b0b0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo{
+    object-fit: contain;
+}
+.header_search{
+    width:43.438rem;
+    margin-right: 0.625rem;
+    margin-left:0.625rem;
+}
+
+.header_search input {
+   width: 100%;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 2rem;
+   font-size: 1rem;
+   background-image: url('../../assets/img/search.png');
+   background-position: 0.625rem 0.625rem;
+   background-color: #eee; 
+   background-repeat: no-repeat;
+   padding: 0.625rem 1.25rem 0.625rem 2.5rem;
+   outline: none;   
+ }
+
+ .header_search input::placeholder{
+     color: #b0b0b0;
+ }
+
+ .header-chart-button{
+     width: 7.5rem;
+     height: 3rem;
+     border-radius: 0.25rem;
+     background-color: #fff;
+     text-align: center;
+     outline: none;
+     
+ }
+ .chartellips{
+     display: inline-block;
+     position: relative;
+     bottom:1.25rem;
+     left: 5.5rem;
+     width: 1.125rem;
+     height: 1.125rem;
+     border-radius: 50%;
+     background-color: #ff6000;
+     color: #fff;
+ }
+ .chartellips span{
+     display: inline-block;
+     margin-top: 1px;
+ }
+
+ .header_chart_button{
+     width: 7.5rem;
+     height: 3rem;
+     border-radius: 0.25rem;
+     padding-right: 0.625rem;
+     outline: none;
+     background-color: #fff;
+     color: #b0b0b0;
+     border-color: #b0b0b0;
+ }
+ .sub-nav{
+     display: flex;
+     justify-content: space-between;
+     margin-top:1.063rem;
+     
+ }
+
+
+
+

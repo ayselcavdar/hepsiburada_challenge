@@ -1,0 +1,30 @@
+.sidebar-wrap {
+  float: left;
+  width: 34%;
+  margin: 0 5% 0 0;
+  padding: 0;
+  margin-top:5.8rem;
+
+}
+.color-container > p {
+    margin-bottom: 1rem;
+}
+.color-container{
+    margin-bottom: 1rem;;
+}
+.range-container > p {
+    margin-bottom: 1rem;
+}
+.range-container li {
+    list-style-type: none;
+    margin-bottom: 0.4rem;
+  }
+.brand-container{
+    margin-top: 1rem;
+}
+.brand-container > p {
+    margin-bottom: 1rem;
+}
+.dd-items > li {
+    cursor: pointer;
+}
